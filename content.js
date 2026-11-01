@@ -1,6 +1,6 @@
 // Portfolio content in English and Portuguese. Edit here, then run `node build.js`.
 const links = {
-  email: 'web.matheusalves@gmail.com',
+  email: 'matheus@math.dev.br',
   linkedin: 'https://www.linkedin.com/in/mathdevelop',
   github: 'https://github.com/mathdevelop',
   anvil: '/anvil-theme-docs/',
