@@ -186,7 +186,7 @@ fs.writeFileSync(
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>${SITE}/</loc></url>
   <url><loc>${SITE}/pt/</loc></url>
-  <url><loc>${SITE}/anvil-theme-docs/</loc></url>
+  <url><loc>${SITE}/ironbench-theme-docs/</loc></url>
 </urlset>
 `
 );
