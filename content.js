@@ -1,0 +1,191 @@
+// Portfolio content in English and Portuguese. Edit here, then run `node build.js`.
+const links = {
+  email: 'web.matheusalves@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/mathdevelop',
+  github: 'https://github.com/mathdevelop',
+  anvil: '/anvil-theme-docs/',
+};
+
+const en = {
+  lang: 'en',
+  path: '/',
+  title: 'Matheus Alves · Senior Software Engineer',
+  description: 'Senior Software Engineer focused on front-end, Micro Frontends, and e-commerce. 10+ years building products for retail and banking.',
+  nav: { about: 'About', impact: 'Impact', experience: 'Experience', projects: 'Projects', skills: 'Skills', contact: 'Contact' },
+  switchLabel: 'Português',
+  hero: {
+    greeting: "Hi, I'm",
+    name: 'Matheus Alves',
+    role: 'Senior Software Engineer',
+    tagline: 'Full stack, front-end focused. I build Micro Frontends and e-commerce products that move revenue, from small merchants to Latin America\'s largest private bank.',
+    location: 'João Pessoa, Brazil · Remote (UTC−3)',
+    ctaPrimary: 'Get in touch',
+    ctaSecondary: 'View experience',
+  },
+  about: {
+    heading: 'About',
+    paragraphs: [
+      'I have been building software for more than 10 years, 7 of them in e-commerce, at companies like Itaú Unibanco, Loja Integrada, and Ambev. I specialize in Micro Frontend architecture (Module Federation, Next.js, Angular), BFFs, and event-driven integrations with Kafka and AWS SNS/SQS.',
+      'I started my career in QA, which gave me an end-to-end view of quality that I still bring to every project. Today I act as a technical reference on my teams: I make architecture decisions, and I have trained interns and developers, some of whom now hold leadership roles.',
+    ],
+  },
+  impact: {
+    heading: 'Impact',
+    items: [
+      ['R$30M+', 'in sales recovered by the abandoned cart product, across 73K+ orders'],
+      ['+31%', 'average order value with Buy Together, the first Next.js Micro Frontend in the admin'],
+      ['+6%', 'conversion on overdraft-line sign-ups after an A/B test at Itaú'],
+      ['10+', 'years of experience, from QA to senior engineering'],
+    ],
+  },
+  experience: {
+    heading: 'Experience',
+    jobs: [
+      { company: 'Loja Integrada', role: 'Senior Software Engineer', period: 'Aug 2026 – Present', place: 'Remote',
+        context: "Brazil's largest e-commerce platform for small and mid-sized businesses. Marketplace squad.",
+        points: ['Building the new Home Micro Frontend in Hive, a Module Federation shell that will replace the legacy admin, rolled out to 10% of new accounts with Consul feature flags.', 'Expanded the Channel Hub for Mercado Livre and Magalu listings, with AI-assisted form autofill.'] },
+      { company: 'Itaú Unibanco', role: 'Senior Software Engineer', period: 'Apr 2025 – Jul 2026', place: 'São Paulo · Hybrid',
+        context: "Latin America's largest private bank. Mobile channel, consumer revolving credit. Angular, Java, Spring Boot.",
+        points: ['Built the Micro Frontend that completes overdraft-line sign-ups in the modernized flow, integrated with the app\'s native token and reused in the mobile app and in branches.', 'Raised sign-up conversion by 6% with observability and A/B testing.', 'Rebuilt the Emergency Credit hub from scratch, saving a product that was being considered for shutdown.'] },
+      { company: 'Loja Integrada', role: 'Senior Software Engineer', period: 'Aug 2021 – Apr 2025', place: 'Remote',
+        context: 'E-commerce SaaS for SMBs, spun off from VTEX. Django, Next.js, ASP.NET Core.',
+        points: ['Created Buy Together (+31% average order value) as the first Next.js Micro Frontend in the legacy admin; its architecture is still the company standard.', 'Built the abandoned cart automation, the company\'s flagship for GMV recovery: R$30M+ recovered.', 'Built an in-house analytics pipeline (C# → Kafka → Elasticsearch) and server-side Conversions API events.', 'Found and fixed a card data exposure, then helped tokenize cards with PCI Proxy.'] },
+      { company: 'Ambev', role: 'Software Developer', period: 'Jan 2021 – Jul 2021', place: 'Remote',
+        context: 'Chopp Brahma Express migration from Magento to VTEX IO, with 200+ franchises.',
+        points: ['Led technical decisions as the team\'s only e-commerce and VTEX specialist.', 'Removed an 8-hour nightly data reload by finding a public checkout endpoint that returns the seller by ZIP code.'] },
+      { company: 'Original.io', role: 'Front-end Developer', period: 'Sep 2020 – Dec 2020', place: 'Remote',
+        context: 'VTEX partner agency.', points: ['Refactored the agency\'s base VTEX CMS theme, unblocking every delivery, and shipped the Bosch Chile store on time.'] },
+      { company: 'Eficaz Marketing', role: 'Software Developer', period: 'Feb 2018 – Sep 2020', place: 'Marília, Brazil',
+        context: 'E-commerce agency and Tray partner.',
+        points: ['Built stores on Tray, VTEX, WooCommerce, and FBITS with features the platforms lacked.', 'Published a free, open-source WooCommerce plugin for shipping estimates on the product page.', 'Shipped the Sportbay app with React Native and Expo, and served as acting Tech Lead.'] },
+      { company: 'DSIN Tecnologia da Informação', role: 'Software Developer', period: 'Apr 2015 – Aug 2017', place: 'Marília, Brazil',
+        context: 'Traffic-fine processing software for municipalities.',
+        points: ['Grew from QA intern to test analyst to developer, working on Delphi desktop and PHP web systems.'] },
+    ],
+  },
+  projects: {
+    heading: 'Projects',
+    items: [
+      { name: 'Anvil', tag: 'Shopify theme', link: links.anvil, linkLabel: 'Read the docs',
+        text: 'An original Shopify theme for hardware, tool, and industrial supply stores: SKU search, technical list layout, specification tables, bulk order, and B2B volume pricing. Built from scratch on Online Store 2.0 with Lighthouse accessibility scores of 100.' },
+      { name: 'Shipping estimate for WooCommerce', tag: 'Open source', link: '', linkLabel: '',
+        text: 'The first free, open-source WooCommerce plugin to calculate shipping right on the product page, adopted by developers at other agencies.' },
+      { name: 'Ticketing platform', tag: 'Laravel', link: '', linkLabel: '',
+        text: 'A ticketing system built from scratch with Laravel, MySQL, and Pagar.me, with organizer and attendee accounts, later sold to other companies.' },
+    ],
+  },
+  skills: {
+    heading: 'Skills',
+    groups: [
+      ['Front-end', 'JavaScript, TypeScript, React, Next.js, Angular, Vue.js, Nuxt.js, HTML, CSS, Sass, Tailwind'],
+      ['Architecture', 'Micro Frontends, Module Federation, BFF, event-driven architecture, A/B testing, feature flags'],
+      ['Back-end', 'Node.js, Python (Django), C# (ASP.NET Core), Java (Spring Boot), PHP (Laravel), REST, GraphQL'],
+      ['Data and messaging', 'PostgreSQL, MySQL, Redis, Elasticsearch, Kafka, AWS SES, SNS, SQS'],
+      ['DevOps', 'Docker, Kubernetes, GitHub Actions, Jenkins, Grafana, Prometheus, Sentry, Datadog'],
+      ['E-commerce', 'Shopify, VTEX IO and CMS, WooCommerce, Tray, Mercado Livre, Google Shopping, GA4, Meta Conversions API'],
+      ['Mobile', 'React Native, Expo'],
+    ],
+  },
+  education: {
+    heading: 'Education',
+    items: [['B.S. in Computer Science', 'UNIVEM, Marília · 2013 – 2016'], ['Technical Diploma in IT', 'ETEC Antônio Devisate · 2011 – 2012']],
+  },
+  contact: {
+    heading: "Let's talk",
+    text: "I'm open to senior front-end and full-stack roles, remote or hybrid. The fastest way to reach me is LinkedIn or email.",
+  },
+  footer: 'Built by hand, no frameworks.',
+};
+
+const pt = {
+  lang: 'pt-BR',
+  path: '/pt/',
+  title: 'Matheus Alves · Engenheiro de Software Sênior',
+  description: 'Engenheiro de Software Sênior com foco em Front-end, Micro Front-ends e E-commerce. Mais de 10 anos criando produtos para varejo e bancos.',
+  nav: { about: 'Sobre', impact: 'Impacto', experience: 'Experiência', projects: 'Projetos', skills: 'Competências', contact: 'Contato' },
+  switchLabel: 'English',
+  hero: {
+    greeting: 'Olá, eu sou',
+    name: 'Matheus Alves',
+    role: 'Engenheiro de Software Sênior',
+    tagline: 'Full Stack com foco em Front-end. Crio Micro Front-ends e produtos de E-commerce que geram receita, de pequenos lojistas ao maior banco privado da América Latina.',
+    location: 'João Pessoa, PB · Remoto',
+    ctaPrimary: 'Fale comigo',
+    ctaSecondary: 'Ver experiência',
+  },
+  about: {
+    heading: 'Sobre',
+    paragraphs: [
+      'Desenvolvo software há mais de 10 anos, 7 deles em E-commerce, em empresas como Itaú Unibanco, Loja Integrada e Ambev. Sou especialista em arquitetura de Micro Front-ends (Module Federation, Next.js, Angular), BFFs e integrações orientadas a eventos com Kafka e AWS SNS/SQS.',
+      'Comecei a carreira em QA, o que me deu um olhar de qualidade de ponta a ponta que levo para todo projeto. Hoje atuo como referência técnica nos times: tomo decisões de arquitetura e já treinei estagiários e desenvolvedores, alguns hoje em cargos de liderança.',
+    ],
+  },
+  impact: {
+    heading: 'Impacto',
+    items: [
+      ['R$ 30 mi+', 'em vendas recuperadas pelo Carrinho abandonado, em 73 mil+ pedidos'],
+      ['+31%', 'no Ticket médio com o Compre Junto, o primeiro Micro Front-end Next.js do painel'],
+      ['+6%', 'de conversão na contratação do Cheque Especial após teste A/B no Itaú'],
+      ['10+', 'anos de experiência, do QA à engenharia sênior'],
+    ],
+  },
+  experience: {
+    heading: 'Experiência',
+    jobs: [
+      { company: 'Loja Integrada', role: 'Engenheiro de Software Sênior', period: 'ago 2026 – atual', place: 'Remoto',
+        context: 'Maior plataforma brasileira de E-commerce para pequenas e médias empresas. Squad de Marketplace.',
+        points: ['Desenvolvo o Micro Front-end da nova Home no Hive, Shell com Module Federation que substituirá o painel legado, liberado para 10% das novas contas via Consul.', 'Evoluí o Hub de Canais para anúncios no Mercado Livre e Magalu, com formulários preenchidos com ajuda de IA.'] },
+      { company: 'Itaú Unibanco', role: 'Analista de Engenharia de TI Sênior', period: 'abr 2025 – jul 2026', place: 'São Paulo · Híbrido',
+        context: 'Maior banco privado da América Latina. Canal Mobile, crédito rotativo para pessoa física. Angular, Java, Spring Boot.',
+        points: ['Construí o Micro Front-end de efetivação do Limite da Conta na jornada modernizada, integrado ao Token nativo do App e reutilizado no App e nas agências.', 'Aumentei em 6% a conversão da contratação com observabilidade e teste A/B.', 'Recriei do zero o Hub do Crédito Emergencial, produto que estava cotado para ser desativado.'] },
+      { company: 'Loja Integrada', role: 'Engenheiro de Software Sênior', period: 'ago 2021 – abr 2025', place: 'Remoto',
+        context: 'Plataforma de E-commerce para PMEs, separada da VTEX. Django, Next.js, ASP.NET Core.',
+        points: ['Criei o Compre Junto (+31% no Ticket médio), primeiro Micro Front-end Next.js do painel legado; a arquitetura segue como padrão da empresa.', 'Construí a automação de Carrinho abandonado, bandeira de recuperação de GMV da empresa: R$ 30 mi+ recuperados.', 'Criei a base de Analytics própria (C# → Kafka → Elasticsearch) e os disparos Server-side da Conversions API.', 'Identifiquei e corrigi uma exposição de dados de cartão e participei da tokenização via PCI Proxy.'] },
+      { company: 'Ambev', role: 'Desenvolvedor de Software', period: 'jan 2021 – jul 2021', place: 'Remoto',
+        context: 'Migração do Chopp Brahma Express de Magento para VTEX IO, com 200+ franquias.',
+        points: ['Conduzi as decisões técnicas como único especialista em E-commerce e VTEX do time.', 'Eliminei uma recarga noturna de 8 h ao encontrar um Endpoint público do Checkout que retorna o Seller pelo CEP.'] },
+      { company: 'Original.io', role: 'Desenvolvedor Front-end', period: 'set 2020 – dez 2020', place: 'Remoto',
+        context: 'Agência parceira VTEX.', points: ['Refatorei o tema base de VTEX CMS da agência, destravando todas as entregas, e entreguei no prazo a loja da Bosch Chile.'] },
+      { company: 'Eficaz Marketing', role: 'Desenvolvedor de Software', period: 'fev 2018 – set 2020', place: 'Marília, SP',
+        context: 'Agência de E-commerce parceira da Tray.',
+        points: ['Desenvolvi lojas em Tray, VTEX, WooCommerce e FBITS com recursos que as plataformas não ofereciam.', 'Publiquei um Plugin gratuito e Open Source de cálculo de frete na página de produto para WooCommerce.', 'Publiquei o App da Sportbay com React Native e Expo e atuei como Tech Lead substituto.'] },
+      { company: 'DSIN Tecnologia da Informação', role: 'Analista de Sistemas', period: 'abr 2015 – ago 2017', place: 'Marília, SP',
+        context: 'Software de processamento de multas de trânsito para municípios.',
+        points: ['Passei de estagiário de QA a Analista de Testes e depois a desenvolvedor, em sistemas Desktop (Delphi) e Web (PHP).'] },
+    ],
+  },
+  projects: {
+    heading: 'Projetos',
+    items: [
+      { name: 'Anvil', tag: 'Tema Shopify', link: links.anvil, linkLabel: 'Ver a documentação',
+        text: 'Tema original para Shopify voltado a lojas de ferragens, ferramentas e suprimentos industriais: busca por SKU, listagem técnica, tabela de especificações, pedido em lote e preço por volume B2B. Feito do zero em Online Store 2.0, com nota 100 de acessibilidade no Lighthouse.' },
+      { name: 'Frete na página de produto para WooCommerce', tag: 'Open Source', link: '', linkLabel: '',
+        text: 'O primeiro Plugin gratuito e Open Source para calcular o frete direto na página de produto do WooCommerce, adotado por desenvolvedores de outras agências.' },
+      { name: 'Plataforma de ingressos', tag: 'Laravel', link: '', linkLabel: '',
+        text: 'Sistema de venda de ingressos criado do zero com Laravel, MySQL e Pagar.me, com contas de organizador e participante, depois vendido a outras empresas.' },
+    ],
+  },
+  skills: {
+    heading: 'Competências',
+    groups: [
+      ['Front-end', 'JavaScript, TypeScript, React, Next.js, Angular, Vue.js, Nuxt.js, HTML, CSS, Sass, Tailwind'],
+      ['Arquitetura', 'Micro Front-ends, Module Federation, BFF, arquitetura orientada a eventos, testes A/B, Feature Flags'],
+      ['Back-end', 'Node.js, Python (Django), C# (ASP.NET Core), Java (Spring Boot), PHP (Laravel), REST, GraphQL'],
+      ['Dados e mensageria', 'PostgreSQL, MySQL, Redis, Elasticsearch, Kafka, AWS SES, SNS, SQS'],
+      ['DevOps', 'Docker, Kubernetes, GitHub Actions, Jenkins, Grafana, Prometheus, Sentry, Datadog'],
+      ['E-commerce', 'Shopify, VTEX IO e CMS, WooCommerce, Tray, Mercado Livre, Google Shopping, GA4, Meta Conversions API'],
+      ['Mobile', 'React Native, Expo'],
+    ],
+  },
+  education: {
+    heading: 'Formação',
+    items: [['Bacharelado em Ciência da Computação', 'UNIVEM, Marília · 2013 – 2016'], ['Técnico em Informática', 'ETEC Antônio Devisate · 2011 – 2012']],
+  },
+  contact: {
+    heading: 'Vamos conversar',
+    text: 'Estou aberto a posições sênior de Front-end e Full Stack, remotas ou híbridas. O jeito mais rápido de falar comigo é pelo LinkedIn ou por e-mail.',
+  },
+  footer: 'Feito à mão, sem frameworks.',
+};
+
+module.exports = { links, en, pt, domain: 'math.dev.br' };
