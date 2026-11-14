@@ -91,7 +91,7 @@ const en = {
   },
   contact: {
     heading: "Let's talk",
-    text: "I'm open to senior front-end and full-stack roles, remote or hybrid. The fastest way to reach me is LinkedIn or email.",
+    text: "The fastest way to reach me is LinkedIn or email.",
   },
   footer: 'Built by hand, no frameworks.',
 };
@@ -182,7 +182,7 @@ const pt = {
   },
   contact: {
     heading: 'Vamos conversar',
-    text: 'Estou aberto a posições sênior de Front-end e Full Stack, remotas ou híbridas. O jeito mais rápido de falar comigo é pelo LinkedIn ou por e-mail.',
+    text: 'O jeito mais rápido de falar comigo é pelo LinkedIn ou por e-mail.',
   },
   footer: 'Feito à mão, sem frameworks.',
 };
