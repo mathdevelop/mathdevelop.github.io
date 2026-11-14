@@ -65,6 +65,8 @@ const en = {
   projects: {
     heading: 'Projects',
     items: [
+      { name: 'Fala Aí', tag: 'Open source', link: 'https://math.dev.br/fala-ai/', linkLabel: 'Try it',
+        text: 'A web app that rewrites English text as it sounds, spelled with Portuguese letters instead of phonetic symbols, so Brazilian learners can read the pronunciation at a glance.' },
       { name: 'Shipping estimate for WooCommerce', tag: 'Open source', link: '', linkLabel: '',
         text: 'The first free, open-source WooCommerce plugin to calculate shipping right on the product page, adopted by developers at other agencies.' },
       { name: 'Ticketing platform', tag: 'Laravel', link: '', linkLabel: '',
@@ -154,6 +156,8 @@ const pt = {
   projects: {
     heading: 'Projetos',
     items: [
+      { name: 'Fala Aí', tag: 'Open Source', link: 'https://math.dev.br/fala-ai/', linkLabel: 'Experimentar',
+        text: 'Site que converte texto em inglês na pronúncia escrita com os sons do português, sem alfabeto fonético, para o brasileiro ler e falar melhor.' },
       { name: 'Frete na página de produto para WooCommerce', tag: 'Open Source', link: '', linkLabel: '',
         text: 'O primeiro Plugin gratuito e Open Source para calcular o frete direto na página de produto do WooCommerce, adotado por desenvolvedores de outras agências.' },
       { name: 'Plataforma de ingressos', tag: 'Laravel', link: '', linkLabel: '',
