@@ -3,7 +3,6 @@ const links = {
   email: 'matheus@math.dev.br',
   linkedin: 'https://www.linkedin.com/in/mathdevelop',
   github: 'https://github.com/mathdevelop',
-  ironbench: '/ironbench-theme-docs/',
 };
 
 const en = {
@@ -66,8 +65,6 @@ const en = {
   projects: {
     heading: 'Projects',
     items: [
-      { name: 'Ironbench', tag: 'Shopify theme', link: links.ironbench, linkLabel: 'Read the docs',
-        text: 'An original Shopify theme for hardware, tool, and industrial supply stores: SKU search, technical list layout, specification tables, bulk order, and B2B volume pricing. Built from scratch on Online Store 2.0 with Lighthouse accessibility scores of 100.' },
       { name: 'Shipping estimate for WooCommerce', tag: 'Open source', link: '', linkLabel: '',
         text: 'The first free, open-source WooCommerce plugin to calculate shipping right on the product page, adopted by developers at other agencies.' },
       { name: 'Ticketing platform', tag: 'Laravel', link: '', linkLabel: '',
@@ -157,8 +154,6 @@ const pt = {
   projects: {
     heading: 'Projetos',
     items: [
-      { name: 'Ironbench', tag: 'Tema Shopify', link: links.ironbench, linkLabel: 'Ver a documentação',
-        text: 'Tema original para Shopify voltado a lojas de ferragens, ferramentas e suprimentos industriais: busca por SKU, listagem técnica, tabela de especificações, pedido em lote e preço por volume B2B. Feito do zero em Online Store 2.0, com nota 100 de acessibilidade no Lighthouse.' },
       { name: 'Frete na página de produto para WooCommerce', tag: 'Open Source', link: '', linkLabel: '',
         text: 'O primeiro Plugin gratuito e Open Source para calcular o frete direto na página de produto do WooCommerce, adotado por desenvolvedores de outras agências.' },
       { name: 'Plataforma de ingressos', tag: 'Laravel', link: '', linkLabel: '',
